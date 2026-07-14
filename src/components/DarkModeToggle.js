@@ -13,7 +13,6 @@ function DarkModeToggle() {
       root.style.setProperty('--light-gray', '#334155');
       root.style.setProperty('--shadow', '0 4px 24px rgba(0, 0, 0, 0.3)');
       root.style.setProperty('--gray', '#94a3b8');
-      // Apply to body
       document.body.style.backgroundColor = '#0f172a';
       document.body.style.color = '#f1f5f9';
     } else {
@@ -24,7 +23,6 @@ function DarkModeToggle() {
       root.style.setProperty('--light-gray', '#e2e8f0');
       root.style.setProperty('--shadow', '0 4px 24px rgba(0, 0, 0, 0.06)');
       root.style.setProperty('--gray', '#64748b');
-      // Apply to body
       document.body.style.backgroundColor = '#f8fafc';
       document.body.style.color = '#0f172a';
     }
