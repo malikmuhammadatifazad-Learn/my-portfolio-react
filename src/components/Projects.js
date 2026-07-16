@@ -28,13 +28,13 @@ function Projects() {
       tags: ['JavaScript', 'API Simulation', 'Dashboard'],
       link: 'https://coruscating-marzipan-9028ae.netlify.app/'
     },
-    {
-      icon: '📋',
-      title: 'Ad Campaign Manager',
-      description: 'Full-stack CRUD app for managing ad campaigns. Create, edit, delete campaigns with live dashboard metrics. Built with React, Node.js, Express, and REST API.',
-      tags: ['React', 'Node.js', 'Express', 'REST API'],
-      link: '/campaign'
-    }
+   {
+  icon: '📊',
+  title: 'Marketing Analytics Dashboard',
+  description: 'Full-stack Next.js application with TypeScript, Prisma, and PostgreSQL. Features real-time campaign tracking, interactive charts (spend vs. revenue, ROAS trends, platform breakdown), and full CRUD operations.',
+  tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
+  link: 'https://html-website-git-main-malikmuhammadatifazad-learns-projects.vercel.app/'
+}
   ];
 
   return (
